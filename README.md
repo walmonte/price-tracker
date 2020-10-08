@@ -3,7 +3,7 @@ The idea for this program arose out of my need for a new laptop; the laptop I wa
 
 When the app is run, it scrapes the item's price from amazon. It then takes this float and compares it to my set max price; if the retrieved price is below the set maximum, an email notification is sent, otherwise, nothing happens.
 
-The app can be set up to run automatically at Startup (more below on how to set this up).
+The app can be set up to run automatically at Startup (more below on how to set this up). Also, the email credentials are blank variables, they have to be edited for the program to work. See scraper.py -> line 5. 
 ## How to Run at Start up (Windows only)
 
 To enalbe this feature, it takes several simple steps:

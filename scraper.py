@@ -2,12 +2,13 @@ import requests as rq
 from bs4 import BeautifulSoup
 import smtplib
 
+# Edit these values accordingly.
 sender = 'sender@email.com'
 password = 'yourPassword'
-recepient = 'recepient@email.com' # make equal to sender ( = sender) to send yourself an email notification
+recepient = 'recepient@email.com' # make equal to sender to send yourself the email notification.
 max_price = 800
 
-#This url links to the item we want to track
+# This url links to the item we want to track
 URL = "https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-x/X1-Carbon-Gen-7/p/22TP2TXX17G"
 
 #Prepare headers
